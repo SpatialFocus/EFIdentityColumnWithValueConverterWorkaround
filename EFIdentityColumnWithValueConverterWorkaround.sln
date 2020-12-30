@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F353D87E-FF9A-4D1A-A68B-188EC34C2100}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		README.md = README.md
+		SpatialFocus.IdentityColumnWithValueConverterWorkaround.sln.DotSettings = SpatialFocus.IdentityColumnWithValueConverterWorkaround.sln.DotSettings
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFIdentityColumnWithValueConverterWorkaround", "src\EFIdentityColumnWithValueConverterWorkaround\EFIdentityColumnWithValueConverterWorkaround.csproj", "{D3E01159-BCE6-46A6-88A8-FAF5D6383C24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F4AE02B-9BA0-449D-8DAC-19703BBDB885}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3E01159-BCE6-46A6-88A8-FAF5D6383C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3E01159-BCE6-46A6-88A8-FAF5D6383C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3E01159-BCE6-46A6-88A8-FAF5D6383C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3E01159-BCE6-46A6-88A8-FAF5D6383C24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3E01159-BCE6-46A6-88A8-FAF5D6383C24} = {4F4AE02B-9BA0-449D-8DAC-19703BBDB885}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5809bc05-c03c-4ace-8793-cffe0f5f517f}
+	EndGlobalSection
+EndGlobal
